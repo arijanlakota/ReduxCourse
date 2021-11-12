@@ -7,15 +7,15 @@ export function  Inputer() {
     const lastName = useSelector((state) => state.inputer.lastName)
     const age = useSelector((state) => state.inputer.age)
     function zaIme(e) {
-        dispatch(firstChange(firtsName,e.target.value))
+        dispatch(firstChange(e.target.value))
         console.log(firtsName)
     }
     function zaPrezime(e) {
-        dispatch(lastChange(lastName,e.target.value))
+        dispatch(lastChange(e.target.value))
         console.log(lastChange)
     }
     function  zaGodine(e) {
-        dispatch(ageChange(age,e.target.value))
+        dispatch(ageChange(e.target.value))
         console.log(age)
     }
     return(
