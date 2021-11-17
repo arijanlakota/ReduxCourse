@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {ageChange,firstChange,lastChange} from "../reducers/inputRed"
-export function  Inputer() {
+export default function  Inputer() {
     const dispatch = useDispatch()
     const firtsName = useSelector((state) => state.inputer.firtsName)
     const lastName = useSelector((state) => state.inputer.lastName)

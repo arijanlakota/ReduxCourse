@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Calculator from './calc/Calculator';
+import { Route, Routes } from 'react-router';
+import SearchNews from './components/SearchNews';
+import Inputer from './components/Inputer';
 // import { Inputer } from './components/Inputer';
 // import { Counter } from './components/Counter';
 // import { Multiply } from './components/Multiply';
@@ -8,7 +10,7 @@ import Calculator from './calc/Calculator';
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      
     </div>
   );
 }
